@@ -1,13 +1,33 @@
-p{
-    color:aqua;
+
+div{
+    width: 100%;
+    padding: 15px 20px 15px;
+    margin: 10px;
+    display:block;
 }
 
-h1{
-    background:white;
-    color:black;
-    text-align: center;
+div.image{
+
+    display:inline-block;
+    width: 50%;
+
+}
+p{
+    color:darkmagenta;
+    background-color: chartreuse;
+    display: block;
+    padding: 15px 20px 15px;
+    margin: 10px;
 }
 
 h2{
-    color:olive;
+    background:greenyellow;
+    color:black;
+    text-align: center;
+    border: 3px solid black;
+    padding: 15px 20px 15px;
+    margin: 10px;
+    border-radius: 15px;
+    
 }
+
