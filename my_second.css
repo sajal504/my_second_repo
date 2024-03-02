@@ -1,33 +1,62 @@
 
-div{
-    width: 100%;
-    padding: 15px 20px 15px;
-    margin: 10px;
-    display:block;
-}
-
-div.image{
-
-    display:inline-block;
-    width: 50%;
-
-}
-p{
-    color:darkmagenta;
-    background-color: chartreuse;
-    display: block;
-    padding: 15px 20px 15px;
-    margin: 10px;
-}
-
-h2{
-    background:greenyellow;
-    color:black;
-    text-align: center;
-    border: 3px solid black;
-    padding: 15px 20px 15px;
-    margin: 10px;
-    border-radius: 15px;
+body{
+    background-color: lightslategray;
+    margin:3px;
+    padding:3px
     
 }
 
+header{
+    background-color: lightskyblue;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items:center;
+}
+.logo img{
+    width:20px;
+    height:20px;
+    border: 4px solid royalblue;
+    margin:5px;
+    padding:5px;
+
+    
+}
+.head-left{
+    display:flex;
+    align-items: flex-start;
+
+}
+.head-right{
+    display:flex;
+    align-items: flex-end;
+    justify-content: right;
+
+}
+
+.banner{
+    background-color: lightskyblue;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.blogs{
+    background-repeat: no-repeat;
+    display:flex;
+    background-color: lightblue;
+    border: 3px solid gray;
+}
+.blog{
+    height:300px;
+    width:300px;
+    margin:5px;
+    padding: 5px;
+    border: 2px solid gray;
+    border-radius: 4px;
+   
+}
+
+.blog img{
+    height:100px;
+    width:100px;
+   
+}
